@@ -44,7 +44,7 @@ public class MainDrawPanel extends JPanel {
     
     private static void createAndShowGUI() {
         //Create and set up the window.
-        JFrame frame = new JFrame("Demo");
+        frame = new JFrame("Demo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Add content to the window.
@@ -61,6 +61,7 @@ public class MainDrawPanel extends JPanel {
         
         tabbedPane = new JTabbedPane();
         JSplitPane verticalSplitPanel = new JSplitPane(JSplitPane.VERTICAL_SPLIT, tabbedPane, makeFieldsPanelWithGridLayout());
+        verticalSplitPanel.setDividerLocation(500);
         this.add(verticalSplitPanel);
         
     }
@@ -69,7 +70,7 @@ public class MainDrawPanel extends JPanel {
         
         
         fieldsPanel = new JPanel(false);
-        fieldsPanel.setPreferredSize(new Dimension(DEFAULT_WIDTH, 60));
+        fieldsPanel.setPreferredSize(new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT));
 
         JPanel hPanel = new JPanel(false);
         
@@ -122,9 +123,13 @@ public class MainDrawPanel extends JPanel {
         
         fieldsPanel.add(hPanel);
         hPanel.add(redrawButton = new JButton(" Redraw Plots! "));
+        hPanel.add(savePresetBtn = new JButton(" Save Preset"));
+        hPanel.add(loadPresetBtn = new JButton(" Load Preset "));
         text_out.setText("1_demo_record");
         hPanel.add(text_out);
         redrawButton.addActionListener(new PanelActionListener());
+        savePresetBtn.addActionListener(new SavePresetListener());
+        loadPresetBtn.addActionListener(new LoadPresetListener());
         return fieldsPanel;
     }
     
@@ -210,7 +215,7 @@ public class MainDrawPanel extends JPanel {
         
     }
 
-    
+    protected static JFrame frame;
     protected static JPanel fChartPanel, psi1ChartPanel, psi2ChartPanel, F1ChartPanel, F2ChartPanel, F3ChartPanel, fieldsPanel;
     protected static ChartPanel fChart, psi1Chart, psi2Chart, F1Chart, F2Chart, F3Chart;
     protected static JTabbedPane tabbedPane;
@@ -220,7 +225,7 @@ public class MainDrawPanel extends JPanel {
                NaField = new JTextField(7), NbField = new JTextField(7), NcField = new JTextField(7),
                aField = new JTextField(7), bField = new JTextField(7);
     protected static JTextArea text_out = new JTextArea();
-    protected static JButton redrawButton;
+    protected static JButton redrawButton,savePresetBtn,loadPresetBtn;
     protected static XYSeriesCollection fDataset, psi1Dataset, psi2Dataset, F1Dataset, F2Dataset, F3Dataset;
     protected static XYSeries fSeries, psi1Series, psi2Series, F1Psi1Series, F1Psi2Series, F2Psi1Series, F2Psi2Series, F3Series;
     

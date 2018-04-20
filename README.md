@@ -1,88 +1,49 @@
 # Wavelet-Transformation for trigonometric functions defined parametrically
-
+## Info
 This project displays transformations for functions with basis functions of Gauss distribution and wavelet Morlet. First Tab shows trigonometric function itself, second and third shows transformation basises, fourth shows transformation with conversion window being pulled through a space axis for both basis finctions, fifth shows transformation with conversion window being pulled through a frequency axis for both basis functions, sixth and seventh tabs shows a image of transformation with window goes though both of the axises for Gauss distribution and wavelet Morlet basis.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run this application you will need any IDEA with JDK 1.8 or higher.
 
-```
-Give examples
-```
+After the IDEA Intallers installs you will see its interface which allows you to setup the IDEA for your needs.
+
+Installing a GitHub add-on is strongly recomended. It will make you work much simplier.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+Download the archive whith the project or fork it to use in IDEA GitHub addon.
 ```
-Give the example
+Use clone or download button
 ```
 
-And repeat
+Option 1
+Run IDEA and press File=>Open Project and your downloaded project directory and open it.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
+Option 2
+Run IDEA and press Team=>Manage Connections.
+Login to your github account.
+Find cloned repo and download it.
 Explain what these tests test and why
 
-```
-Give an example
-```
 
-### And coding style tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
+## Work examples
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [image](https://pp.userapi.com/c846523/v846523964/2e315/Id2fq-EebGg.jpg)
+* image:https://travis-ci.org/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy.png["Build Status", link="https://travis-ci.org/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy"]
 
 ## Authors
+* **Duboshin Gleb** - *Initial work* - [GlebFhtagn](https://github.com/GlebFhtagn)
+* **Melsitov Oleg** - *BugFix and Presets* - [OlegMels](https://github.com/OlegMels)
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details
