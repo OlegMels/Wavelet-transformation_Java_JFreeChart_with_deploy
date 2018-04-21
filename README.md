@@ -30,8 +30,11 @@ Login to your github account.
 Find cloned repo and download it.
 Explain what these tests test and why
 
+## Running
+Download zip archieve, cmd at the root folder of the project mvn install or mvn package, run trunk/1.bat
 
-
+##Continious integration
+https://travis-ci.org/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy?utm_source=email&utm_medium=notification
 
 ## Work examples
 
@@ -46,3 +49,4 @@ See also the list of [contributors](https://github.com/GlebFhtagn/Wavelet-transf
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details
+
