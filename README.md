@@ -36,8 +36,6 @@ Explain what these tests test and why
 ## Work examples
 
 * [image](https://pp.userapi.com/c846523/v846523964/2e315/Id2fq-EebGg.jpg)
-* image:https://travis-ci.org/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy#["Build Status", link="https://travis-ci.org/GlebFhtagn/Wavelet-transformation_Java_JFreeChart_with_deploy.svg?branch=master"]
-
 
 ## Authors
 * **Duboshin Gleb** - *Initial work* - [GlebFhtagn](https://github.com/GlebFhtagn)
